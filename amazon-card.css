@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 18rem;
+    background: white;
+    border-radius: 0.4rem;
+    overflow: hidden;    
+}
+.image{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-content{
+    padding: 1rem;
+}
+.title{
+    font-size: 1rem; 
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;        
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.star{
+    color: orange;
+}
+.rating-no{color: rgb(50, 148, 218);}
+.price .amount{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.amount sup {
+  font-size: 0.88rem;
+  vertical-align: top;
+}
+.delivery-fee{
+  font-size: 0.9rem;
+  color: #565959;
+  margin-top: 0.4rem;
+}
+
+.shipping{
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 0.9rem; 
+}
+.btn{
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    font-size: 1rem;
+    padding: 0.6rem 1.3rem;
+    cursor: pointer;
+    border-radius: 10rem;
+    transition: background 0.2s ease-in-out;
+}
+.btn:hover{
+    background: #f7ca00;
+}
